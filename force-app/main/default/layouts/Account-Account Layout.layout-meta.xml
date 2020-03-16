@@ -236,6 +236,13 @@
         </relatedContentItems>
     </relatedContent>
     <relatedLists>
+        <fields>ExternalId</fields>
+        <fields>orderDate__c</fields>
+        <fields>orderID__c</fields>
+        <fields>shippedDate__c</fields>
+        <relatedList>Orders__x.customerID__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>
         <fields>CONTACT.EMAIL</fields>
@@ -296,7 +303,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0m000000FQNK</masterLabel>
+        <masterLabel>00h540000023JOh</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
